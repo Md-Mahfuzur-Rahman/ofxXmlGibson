@@ -26,9 +26,7 @@ class GibsonLayer {
         string srcImgPath;
         string srcImgFileName;
 
-
-
-        ofImage img;
+        ofImage* img;
 
         ofPoint anchorPoint;
 
@@ -67,19 +65,19 @@ class GibsonLayer {
 
 
                 ofSetColor(255,255,255,255.0*opacities[timeIndex]/100.0);
-                img.draw(0,0);
+                img->draw(0,0);
             ofPopMatrix();
         }
 
-        GibsonLayer(ofxXmlSettings* xmlParser, int which){
+        GibsonLayer(ofxXmlSettings* xmlParser, int which, string imageSearchDir="data/images/"){
             xmlParser->pushTag("layer", which);
 
                 srcImgPath = xmlParser->getAttribute("source","path","", 0);
                 srcImgFileName = ofSplitString(srcImgPath,"/").back();
 
                 cout << "found layer with source: " << srcImgFileName << endl;
-
-                img.loadImage("data/images/" + srcImgFileName);
+                img = new ofImage();
+                img->loadImage(imageSearchDir + srcImgFileName);
 
                 // find transform group and push it
 
@@ -193,6 +191,9 @@ class GibsonLayer {
             rotations.clear();
             scales.clear();
             opacities.clear();
+
+            img->clear();
+            delete img;
         }
 };
 
@@ -201,14 +202,27 @@ public:
 
     string gibsonXmlPath;
     int milliStartTime;
+    string imageSearchDir;
 
     ofxXmlSettings* xmlParser;
 
     vector<GibsonLayer*> layers;
 
-    ofxXmlGibson(string xmlPath){
+    GibsonLayer* getLayerByFileName(string filename) {
+        GibsonLayer* returnVal = NULL;
+        for (int i=0; i<layers.size(); i++){
+            if (layers[i]->srcImgFileName == filename){
+                returnVal = layers[i];
+                break;
+            }
+        }
+        return returnVal;
+    }
+
+    ofxXmlGibson(string xmlPath, string searchDir="data/images/"){
 
         gibsonXmlPath = xmlPath;
+        imageSearchDir = searchDir;
 
         cout << "loading gibsonXmlPath: " << gibsonXmlPath << endl;
         xmlParser = new ofxXmlSettings(gibsonXmlPath);
@@ -224,11 +238,12 @@ public:
 
                 int numLayers = xmlParser->getNumTags("layer");
                 for(int i = 0; i < numLayers; i++) {
-                    GibsonLayer* tmpLayer = new GibsonLayer(xmlParser,i);
-                    if (tmpLayer->img.isAllocated())
+                    GibsonLayer* tmpLayer = new GibsonLayer(xmlParser,i,imageSearchDir);
+                    if (tmpLayer->img->isAllocated()){
                         layers.push_back(tmpLayer);
-                    else
+                    } else {
                         delete tmpLayer;
+                    }
                 }
 
             xmlParser->popTag(); // composition
