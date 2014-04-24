@@ -240,6 +240,11 @@ public:
 
 
     ~ofxXmlGibson(){
+        for (int i=0;i<layers.size();i++)
+            delete layers[i];
+        layers.clear();
+        xmlParser->clear();
+        delete xmlParser;
     }
 
     void startTimers(){
