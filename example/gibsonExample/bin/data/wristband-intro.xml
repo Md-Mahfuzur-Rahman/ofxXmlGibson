@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<movie service="Xml Gibson-1.0">
+  <composition duration="15" width="1920" height="1080" framerate="60" par="1" bgcolor="0,0,0" name="HHLBadgetAnimation">
+    <layer enabled="true" index="1" name="bottom_bar.png" type="Footage" width="1920" height="92" in="0" out="3.33333333333333" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="92" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/bottom_bar.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,46,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,1034,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="2" name="Visit mos.org/hhl  and explore your data 2" type="Text" in="0" out="0.3" start="0" threeD="false" separated="null" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <typography font="Geogrotesque-Bold" size="86" justification="Center" color="1,1,1" text="Visit mos.org/hhl &#10;and explore your data"/>
+      <group name="Marker"/>
+      <group name="Text">
+        <property type="Source_Text">
+          <key value="Visit mos.org/hhl &#10;and explore your data" time="0"/>
+        </property>
+        <property type="Path_Options">
+          <property type="Path">
+            <key value="0" time="0"/>
+          </property>
+        </property>
+        <property type="Path_Options"/>
+        <property type="More_Options">
+          <property type="Anchor_Point_Grouping">
+            <key value="1" time="0"/>
+          </property>
+          <property type="Grouping_Alignment">
+            <key value="0,0" time="0"/>
+          </property>
+          <property type="Fill_&amp;_Stroke">
+            <key value="1" time="0"/>
+          </property>
+          <property type="Inter-Character_Blending">
+            <key value="1" time="0"/>
+          </property>
+        </property>
+        <property type="More_Options"/>
+        <property type="Animators"/>
+      </group>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="0,0,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="464,532,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="159.483113888246,159.483113888246,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="3" name="visit_data" type="Footage" width="1920" height="1080" in="0" out="0.3" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="1080" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/visit_data.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.05" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.1" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.11666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.13333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.15" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.16666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.18333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.2" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.21666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.23333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.25" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.26666666666667" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="5.93729582324076e-10" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="960,540,0" time="0.28333333333333" interp_in="null" interp_out="null" in_speed="5.93729582324076e-10" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.13333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.15" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.16666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.23333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100,100,100" time="0.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.13333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.15" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.16666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.23333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="0" time="0.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+        <property type="Opacity">
+          <key value="0" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="7.14285714285714" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="14.2857142857143" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="21.4285714285714" time="0.05" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="28.5714285714286" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.7142857142857" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="42.8571428571429" time="0.1" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="50" time="0.11666666666667" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="57.1428571428571" time="0.13333333333333" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="64.2857142857143" time="0.15" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="71.4285714285714" time="0.16666666666667" interp_in="null" interp_out="null" in_speed="428.571428571428" out_speed="428.571428571428" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="78.5714285714286" time="0.18333333333333" interp_in="null" interp_out="null" in_speed="428.571428571428" out_speed="428.571428571428" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="85.7142857142857" time="0.2" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="92.8571428571429" time="0.21666666666667" interp_in="null" interp_out="null" in_speed="428.571428571429" out_speed="428.571428571429" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.23333333333333" interp_in="null" interp_out="null" in_speed="214.285714285714" out_speed="214.285714285714" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="11" name="badges" type="Composition" source="badges" width="1920" height="1080" in="0" out="1.95" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="1.2" interp_in="null" interp_out="null" in_speed="0" out_speed="-317.647058823529" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="10" time="1.48333333333333" interp_in="null" interp_out="null" in_speed="-317.647058823529" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="13" name="background.png" type="Footage" width="1920" height="1080" in="0" out="15" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="1080" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/background.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks">
+        <property type="Mask_1">
+          <property type="Mask_Path">
+            <key value="Shape" time="0" closed="true">
+              <vertice pos="-20,244.000061035156" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="-28,972" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="2020,1012" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="1996,228.000122070313" tanIn="0,0" tanOut="0,0"/>
+            </key>
+          </property>
+          <property type="Mask_Feather">
+            <key value="0,0" time="0"/>
+          </property>
+          <property type="Mask_Opacity">
+            <key value="100" time="0"/>
+          </property>
+          <property type="Mask_Expansion">
+            <key value="0" time="0"/>
+          </property>
+        </property>
+        <property type="Mask_1"/>
+      </group>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="14" name="  " type="Footage" width="1920" height="1080" in="0" out="3.33333333333333" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="1080" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/allergens screenshot.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+  </composition>
+</movie>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<movie service="Xml Gibson-1.0">
+  <composition duration="15" width="1920" height="1080" framerate="60" par="1" bgcolor="0,0,0" name="HHLBadgetAnimation">
+    <layer enabled="true" index="1" name="bottom_bar.png" type="Footage" width="1920" height="92" in="0" out="3.33333333333333" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="92" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/bottom_bar.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,46,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,1034,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="2" name="Visit mos.org/hhl  and explore your data 2" type="Text" in="0" out="0.3" start="0" threeD="false" separated="null" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <typography font="Geogrotesque-Bold" size="86" justification="Center" color="1,1,1" text="Visit mos.org/hhl &#10;and explore your data"/>
+      <group name="Marker"/>
+      <group name="Text">
+        <property type="Source_Text">
+          <key value="Visit mos.org/hhl &#10;and explore your data" time="0"/>
+        </property>
+        <property type="Path_Options">
+          <property type="Path">
+            <key value="0" time="0"/>
+          </property>
+        </property>
+        <property type="Path_Options"/>
+        <property type="More_Options">
+          <property type="Anchor_Point_Grouping">
+            <key value="1" time="0"/>
+          </property>
+          <property type="Grouping_Alignment">
+            <key value="0,0" time="0"/>
+          </property>
+          <property type="Fill_&amp;_Stroke">
+            <key value="1" time="0"/>
+          </property>
+          <property type="Inter-Character_Blending">
+            <key value="1" time="0"/>
+          </property>
+        </property>
+        <property type="More_Options"/>
+        <property type="Animators"/>
+      </group>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="0,0,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="464,532,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="159.483113888246,159.483113888246,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="5" name="band_jiggle" type="Footage" width="1317" height="1033" in="-1.45" out="0.11666666666667" start="-1.45" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1317" height="1033" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/wristband/justBand-01.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="658.5,516.5,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="2228,808,0" time="-1.45" interp_in="null" interp_out="null" in_speed="0" out_speed="1.26123888206683e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="2228,808,0" time="-1.43333333333333" interp_in="null" interp_out="null" in_speed="1.26123888206683e-9" out_speed="1.26123888206683e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="2228,808,0" time="-1.41666666666667" interp_in="null" interp_out="null" in_speed="1.26123888206683e-9" out_speed="1.26123888206683e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="2228,808,0" time="-1.4" interp_in="null" interp_out="null" in_speed="1205.19512692258" out_speed="1205.19512692258" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="-6.6551775932312,-0.72776597738266,0"/>
+          <key value="2188.06893353718,803.633404141409,0" time="-1.38333333333333" interp_in="null" interp_out="null" in_speed="2559.80964148634" out_speed="2559.80964148634" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="14.1747903823853,1.0124489068985,0" spatial_tan_out="-14.1747903823853,-1.0124489068985,0"/>
+          <key value="2142.95125517744,801.925306573406,0" time="-1.36666666666667" interp_in="null" interp_out="null" in_speed="2752.5558793064" out_speed="2752.5558793064" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="15.2844467163086,0.4345495402813,0" spatial_tan_out="-15.2844467163086,-0.4345495402813,0"/>
+          <key value="2096.36225590117,801.026106919732,0" time="-1.35" interp_in="null" interp_out="null" in_speed="2799.16056814116" out_speed="2799.16056814116" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="15.5489206314087,0.23349557816982,0" spatial_tan_out="-15.5489206314087,-0.23349557816982,0"/>
+          <key value="2049.6577300646,800.524333102896,0" time="-1.33333333333333" interp_in="null" interp_out="null" in_speed="2783.65905483314" out_speed="2783.65905483314" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="15.4641494750977,0.13255293667316,0" spatial_tan_out="-15.4641494750977,-0.13255293667316,0"/>
+          <key value="2003.57735791748,800.230789342376,0" time="-1.31666666666667" interp_in="null" interp_out="null" in_speed="2730.99956315954" out_speed="2730.99956315954" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="15.1719884872437,0.08171015977859,0" spatial_tan_out="-15.1719884872437,-0.08171015977859,0"/>
+          <key value="1958.62580136864,800.03407212638,0" time="-1.3" interp_in="null" interp_out="null" in_speed="2650.96746851077" out_speed="2650.96746851077" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="14.7274646759033,0.06220873445272,0" spatial_tan_out="-14.7274646759033,-0.06220873445272,0"/>
+          <key value="1915.21256921302,799.857536936548,0" time="-1.28333333333333" interp_in="null" interp_out="null" in_speed="2547.78227262539" out_speed="2547.78227262539" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="14.1541910171509,0.06540489941835,0" spatial_tan_out="-14.1541910171509,-0.06540489941835,0"/>
+          <key value="1873.70065299029,799.641642724438,0" time="-1.26666666666667" interp_in="null" interp_out="null" in_speed="2422.01793792912" out_speed="2422.01793792912" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="13.455358505249,0.08702570945024,0" spatial_tan_out="-13.455358505249,-0.08702570945024,0"/>
+          <key value="1834.48042084423,799.335382675008,0" time="-1.25" interp_in="null" interp_out="null" in_speed="2272.40786345094" out_speed="2272.40786345094" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="12.6238279342651,0.12509971857071,0" spatial_tan_out="-12.6238279342651,-0.12509971857071,0"/>
+          <key value="1797.9576875758,798.891044447894,0" time="-1.23333333333333" interp_in="null" interp_out="null" in_speed="2096.49842013206" out_speed="2096.49842013206" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="11.6457481384277,0.17904558777809,0" spatial_tan_out="-11.6457481384277,-0.17904558777809,0"/>
+          <key value="1764.60593287039,798.261109189819,0" time="-1.21666666666667" interp_in="null" interp_out="null" in_speed="1889.59449083939" out_speed="1889.59449083939" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="10.4946022033691,0.24911057949066,0" spatial_tan_out="-10.4946022033691,-0.24911057949066,0"/>
+          <key value="1734.99007560317,797.396380994159,0" time="-1.2" interp_in="null" interp_out="null" in_speed="1645.05580875831" out_speed="1645.05580875831" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="9.1326150894165,0.33566603064537,0" spatial_tan_out="-9.1326150894165,-0.33566603064537,0"/>
+          <key value="1709.81024269965,796.247112951566,0" time="-1.18333333333333" interp_in="null" interp_out="null" in_speed="1352.04553258503" out_speed="1352.04553258503" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="7.4976921081543,0.43603560328484,0" spatial_tan_out="-7.4976921081543,-0.43603560328484,0"/>
+          <key value="1690.00392374284,794.780167291838,0" time="-1.16666666666667" interp_in="null" interp_out="null" in_speed="994.395572932081" out_speed="994.395572932081" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="5.49664640426636,0.52792382240295,0" spatial_tan_out="-5.49664640426636,-0.52792382240295,0"/>
+          <key value="1676.83036316478,793.079570180381,0" time="-1.15" interp_in="null" interp_out="null" in_speed="547.155878965283" out_speed="547.155878965283" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="3.00065398216248,0.4633612036705,0" spatial_tan_out="-3.00065398216248,-0.4633612036705,0"/>
+          <key value="1672,792,0" time="-1.13333333333333" interp_in="null" interp_out="null" in_speed="148.610541929785" out_speed="148.610541929785" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0.805060505867,0.17992836236954,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.11666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.1" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.08333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.06666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.05" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.03333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1.01666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-1" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.98333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.96666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.95" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.93333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.91666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.9" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.88333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.86666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.85" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.83333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.81666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.8" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.78333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.76666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.75" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.73333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.71666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.7" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.68333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.66666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.65" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.63333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.61666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.6" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.58333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.56666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.55" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.53333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.51666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.5" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.48333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.46666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.45" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.43333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.41666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.4" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.38333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.36666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.35" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.33333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.31666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.3" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.28333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.26666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.25" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.23333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.21666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.2" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.18333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.16666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.15" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.13333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.11666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.1" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.08333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.06666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.05" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.03333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="-0.01666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.05" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="1.06026726136538e-9" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+          <key value="1672,792,0" time="0.1" interp_in="null" interp_out="null" in_speed="1.06026726136538e-9" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="0,0,0" spatial_tan_out="0,0,0"/>
+        </property>
+        <property type="Scale">
+          <key value="36,36,100" time="-1.45" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.43333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.41666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.4" interp_in="null" interp_out="null" in_speed="12.738422180855" out_speed="12.738422180855" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.4246140726952,35.5651796556561,100" time="-1.38333333333333" interp_in="null" interp_out="null" in_speed="25.4768443617101" out_speed="25.4768443617101" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.8492281453903,35.1303593113122,100" time="-1.36666666666667" interp_in="null" interp_out="null" in_speed="25.4768443617101" out_speed="25.4768443617101" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.2738422180855,34.6955389669684,100" time="-1.35" interp_in="null" interp_out="null" in_speed="25.4768443617099" out_speed="25.4768443617099" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.6984562907807,34.2607186226245,100" time="-1.33333333333333" interp_in="null" interp_out="null" in_speed="25.4768443617101" out_speed="25.4768443617101" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.1230703634758,33.8258982782806,100" time="-1.31666666666667" interp_in="null" interp_out="null" in_speed="25.4768443617099" out_speed="25.4768443617099" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.547684436171,33.3910779339367,100" time="-1.3" interp_in="null" interp_out="null" in_speed="25.4768443617097" out_speed="25.4768443617097" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.9722985088662,32.9562575895928,100" time="-1.28333333333333" interp_in="null" interp_out="null" in_speed="25.4768443617101" out_speed="25.4768443617101" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="39.3969125815613,32.521437245249,100" time="-1.26666666666667" interp_in="null" interp_out="null" in_speed="1.81977459726512" out_speed="1.81977459726512" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="39.0329576621083,33.2166249501019,100" time="-1.25" interp_in="null" interp_out="null" in_speed="-21.83729516718" out_speed="-21.83729516718" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.6690027426553,33.9118126549549,100" time="-1.23333333333333" interp_in="null" interp_out="null" in_speed="-21.83729516718" out_speed="-21.83729516718" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.3050478232023,34.6070003598078,100" time="-1.21666666666667" interp_in="null" interp_out="null" in_speed="-21.83729516718" out_speed="-21.83729516718" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.9410929037493,35.3021880646608,100" time="-1.2" interp_in="null" interp_out="null" in_speed="-21.8372951671798" out_speed="-21.8372951671798" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.5771379842963,35.9973757695137,100" time="-1.18333333333333" interp_in="null" interp_out="null" in_speed="-21.83729516718" out_speed="-21.83729516718" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.2131830648433,36.6925634743667,100" time="-1.16666666666667" interp_in="null" interp_out="null" in_speed="-21.8372951671801" out_speed="-21.8372951671801" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.8492281453903,37.3877511792196,100" time="-1.15" interp_in="null" interp_out="null" in_speed="-36.3954919453" out_speed="-36.3954919453" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.13333333333333" interp_in="null" interp_out="null" in_speed="-25.4768443617101" out_speed="-25.4768443617101" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.98333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.96666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.95" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.93333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.91666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.9" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.88333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.86666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.85" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.83333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.81666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.8" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.78333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.76666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.75" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.73333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.71666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.7" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.68333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.66666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.65" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.63333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.61666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.6" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.58333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.56666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.55" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.53333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.51666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.5" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.48333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.46666666666667" interp_in="null" interp_out="null" in_speed="9.73301784243008" out_speed="9.73301784243008" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.324433928081,35.5374600503575,100" time="-0.45" interp_in="null" interp_out="null" in_speed="48.6650892121509" out_speed="48.6650892121509" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.622169640405,33.6873002517875,100" time="-0.43333333333333" interp_in="null" interp_out="null" in_speed="77.8641427394413" out_speed="77.8641427394413" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.919905352729,31.8371404532175,100" time="-0.41666666666667" interp_in="null" interp_out="null" in_speed="-5.03647299955001" out_speed="-5.03647299955001" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.4542872070867,34.2130668862737,100" time="-0.4" interp_in="null" interp_out="null" in_speed="-87.9370887385408" out_speed="-87.9370887385408" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.9886690614443,36.5889933193298,100" time="-0.38333333333333" interp_in="null" interp_out="null" in_speed="-49.2946483370944" out_speed="-49.2946483370944" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.8111322625169,36.5914874637969,100" time="-0.36666666666667" interp_in="null" interp_out="null" in_speed="0.33992815666944" out_speed="0.33992815666944" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.35" interp_in="null" interp_out="null" in_speed="5.66603212449351" out_speed="5.66603212449351" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.33333333333333" interp_in="null" interp_out="null" in_speed="38.9320713697207" out_speed="38.9320713697207" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.297735712324,34.14984020143,100" time="-0.31666666666667" interp_in="null" interp_out="null" in_speed="77.8641427394413" out_speed="77.8641427394413" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.595471424648,32.29968040286,100" time="-0.3" interp_in="null" interp_out="null" in_speed="15.6886809351978" out_speed="15.6886809351978" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.8206917434973,33.6190852780096,100" time="-0.28333333333333" interp_in="null" interp_out="null" in_speed="-67.2119348037933" out_speed="-67.2119348037933" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.3550735978549,35.9950117110658,100" time="-0.26666666666667" interp_in="null" interp_out="null" in_speed="-62.1754618042433" out_speed="-62.1754618042433" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.7481763500225,36.7886499517292,100" time="-0.25" interp_in="null" interp_out="null" in_speed="-10.652207935648" out_speed="-10.652207935648" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.23333333333333" interp_in="null" interp_out="null" in_speed="7.55470949932485" out_speed="7.55470949932485" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.16666666666667" interp_in="null" interp_out="null" in_speed="38.9320713697207" out_speed="38.9320713697207" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.297735712324,34.14984020143,100" time="-0.15" interp_in="null" interp_out="null" in_speed="77.8641427394413" out_speed="77.8641427394413" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.595471424648,32.29968040286,100" time="-0.13333333333333" interp_in="null" interp_out="null" in_speed="15.6886809351978" out_speed="15.6886809351978" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.8206917434973,33.6190852780096,100" time="-0.11666666666667" interp_in="null" interp_out="null" in_speed="-67.2119348037933" out_speed="-67.2119348037933" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.3550735978549,35.9950117110658,100" time="-0.1" interp_in="null" interp_out="null" in_speed="-62.1754618042433" out_speed="-62.1754618042433" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.7481763500225,36.7886499517292,100" time="-0.08333333333333" interp_in="null" interp_out="null" in_speed="-10.652207935648" out_speed="-10.652207935648" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.06666666666667" interp_in="null" interp_out="null" in_speed="7.55470949932485" out_speed="7.55470949932485" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="-0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="0" interp_in="null" interp_out="null" in_speed="38.9320713697207" out_speed="38.9320713697207" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.297735712324,34.14984020143,100" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="77.8641427394413" out_speed="77.8641427394413" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="38.595471424648,32.29968040286,100" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="15.6886809351978" out_speed="15.6886809351978" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="37.8206917434973,33.6190852780096,100" time="0.05" interp_in="null" interp_out="null" in_speed="-67.2119348037933" out_speed="-67.2119348037933" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36.3550735978549,35.9950117110658,100" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="-62.1754618042433" out_speed="-62.1754618042433" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="35.7481763500225,36.7886499517292,100" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="-10.652207935648" out_speed="-10.652207935648" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="36,36,100" time="0.1" interp_in="null" interp_out="null" in_speed="15.1094189986497" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+        <property type="Rotation">
+          <key value="4.11483750220256" time="-1.45" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.11483750220256" time="-1.43333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.11483750220256" time="-1.41666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.11483750220256" time="-1.4" interp_in="null" interp_out="null" in_speed="7.5" out_speed="7.5" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.36483750220256" time="-1.38333333333333" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.61483750220256" time="-1.36666666666667" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="4.86483750220256" time="-1.35" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="5.11483750220256" time="-1.33333333333333" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="5.36483750220256" time="-1.31666666666667" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="5.61483750220256" time="-1.3" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="5.86483750220256" time="-1.28333333333333" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="6.11483750220256" time="-1.26666666666667" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="6.36483750220256" time="-1.25" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="6.61483750220256" time="-1.23333333333333" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="6.86483750220256" time="-1.21666666666667" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="7.11483750220256" time="-1.2" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="7.36483750220256" time="-1.18333333333333" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="7.61483750220256" time="-1.16666666666667" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="7.86483750220256" time="-1.15" interp_in="null" interp_out="null" in_speed="15" out_speed="15" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.13333333333333" interp_in="null" interp_out="null" in_speed="7.5" out_speed="7.5" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.98333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.96666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.95" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.93333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.91666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.9" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.88333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.86666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.85" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.83333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.81666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.8" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.78333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.76666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.75" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.73333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.71666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.7" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.68333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.66666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.65" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.63333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.61666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.6" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.58333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.56666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.55" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.53333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.51666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.5" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.48333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.46666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.45" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.43333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.41666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.4" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.38333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.36666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.35" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.33333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.31666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.3" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.23333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.16666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.15" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.13333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="-0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="8.11483750220256" time="0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="-1.45" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.43333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.41666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.4" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.38333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.36666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.35" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.33333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.31666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.3" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.23333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.16666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.15" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.13333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.98333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.96666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.95" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.93333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.91666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.9" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.88333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.86666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.85" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.83333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.81666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.8" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.78333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.76666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.75" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.73333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.71666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.7" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.68333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.66666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.65" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.63333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.61666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.6" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.58333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.56666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.55" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.53333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.51666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.5" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.48333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.46666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.45" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.43333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.41666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.4" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.38333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.36666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.35" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.33333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.31666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.3" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.28333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.26666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.25" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.23333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.21666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.2" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.18333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.16666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.15" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.13333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.11666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="-0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.01666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.03333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.05" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.06666666666667" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.08333333333333" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="100" time="0.1" interp_in="null" interp_out="null" in_speed="0" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+      </group>
+      <group name="Layer_Styles">
+        <property type="Blending_Options">
+          <property type="Global_Light_Angle">
+            <key value="120" time="0"/>
+          </property>
+          <property type="Global_Light_Altitude">
+            <key value="30" time="0"/>
+          </property>
+          <property type="Advanced_Blending">
+            <property type="Fill_Opacity">
+              <key value="100" time="0"/>
+            </property>
+            <property type="Red">
+              <key value="1" time="0"/>
+            </property>
+            <property type="Green">
+              <key value="1" time="0"/>
+            </property>
+            <property type="Blue">
+              <key value="1" time="0"/>
+            </property>
+            <property type="Blend_Interior_Styles_as_Group">
+              <key value="0" time="0"/>
+            </property>
+            <property type="Use_Blend_Ranges_from_Source">
+              <key value="1" time="0"/>
+            </property>
+          </property>
+          <property type="Advanced_Blending"/>
+        </property>
+        <property type="Blending_Options"/>
+      </group>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="11" name="badges" type="Composition" source="badges" width="1920" height="1080" in="0" out="1.95" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="1.2" interp_in="null" interp_out="null" in_speed="0" out_speed="-317.647058823529" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+          <key value="10" time="1.48333333333333" interp_in="null" interp_out="null" in_speed="-317.647058823529" out_speed="0" in_influence="16.666666667" out_influence="16.666666667" spatial_tan_in="null" spatial_tan_out="null"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="13" name="background.png" type="Footage" width="1920" height="1080" in="0" out="15" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="1080" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/background.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks">
+        <property type="Mask_1">
+          <property type="Mask_Path">
+            <key value="Shape" time="0" closed="true">
+              <vertice pos="-20,244.000061035156" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="-28,972" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="2020,1012" tanIn="0,0" tanOut="0,0"/>
+              <vertice pos="1996,228.000122070313" tanIn="0,0" tanOut="0,0"/>
+            </key>
+          </property>
+          <property type="Mask_Feather">
+            <key value="0,0" time="0"/>
+          </property>
+          <property type="Mask_Opacity">
+            <key value="100" time="0"/>
+          </property>
+          <property type="Mask_Expansion">
+            <key value="0" time="0"/>
+          </property>
+        </property>
+        <property type="Mask_1"/>
+      </group>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+    <layer enabled="true" index="14" name="  " type="Footage" width="1920" height="1080" in="0" out="3.33333333333333" start="0" threeD="false" separated="false" locked="false" istrkmatte="false" hastrkmatte="false" trktype="None">
+      <source duration="0" width="1920" height="1080" framerate="0" par="1" video="true" audio="false" missing="false" path="~/Documents/AE/HHLBadgeAnimation/Assets/allergens screenshot.png"/>
+      <group name="Marker"/>
+      <group name="Time_Remap"/>
+      <group name="Motion_Trackers"/>
+      <group name="Masks"/>
+      <group name="Effects"/>
+      <group name="Transform">
+        <property type="Anchor_Point">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Position">
+          <key value="960,540,0" time="0"/>
+        </property>
+        <property type="Scale">
+          <key value="100,100,100" time="0"/>
+        </property>
+        <property type="Rotation">
+          <key value="0" time="0"/>
+        </property>
+        <property type="Opacity">
+          <key value="100" time="0"/>
+        </property>
+      </group>
+      <group name="Layer_Styles"/>
+      <group name="Geometry_Options"/>
+      <group name="Geometry_Options"/>
+      <group name="Material_Options"/>
+      <group name="Audio"/>
+    </layer>
+  </composition>
+</movie>
