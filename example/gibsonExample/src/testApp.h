@@ -1,13 +1,18 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxXmlGibson.h"
 
 class testApp : public ofBaseApp{
 	public:
+	    ofxXmlGibson* gibsonAnimation1;
+	    ofxXmlGibson* gibsonAnimation2;
+	    ofxXmlGibson* gibsonAnimation3;
+
 		void setup();
 		void update();
 		void draw();
-		
+
 		void keyPressed(int key);
 		void keyReleased(int key);
 		void mouseMoved(int x, int y);
