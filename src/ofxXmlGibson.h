@@ -75,7 +75,6 @@ class GibsonLayer {
                 srcImgPath = xmlParser->getAttribute("source","path","", 0);
                 srcImgFileName = ofSplitString(srcImgPath,"/").back();
 
-                cout << "found layer with source: " << srcImgFileName << endl;
                 img = new ofImage();
                 img->loadImage(imageSearchDir + srcImgFileName);
 
@@ -92,10 +91,8 @@ class GibsonLayer {
                             // anchor point
                             if(xmlParser->getAttribute("property","type","", j) == "Anchor_Point") {
 
-                                cout << "Found anchor point: " << endl;
                                 xmlParser->pushTag("property",j);
 
-                                    cout << xmlParser->getAttribute("key","value","", 0) << endl;
                                     vector<string> splitPoint = ofSplitString(xmlParser->getAttribute("key","value","", 0),",");
                                     anchorPoint.x = ofToFloat(splitPoint[0]);
                                     anchorPoint.y = ofToFloat(splitPoint[1]);
@@ -107,18 +104,15 @@ class GibsonLayer {
                             // positions
                             if(xmlParser->getAttribute("property","type","", j) == "Position") {
 
-                                //cout << "Found position: ";// << endl;
                                 xmlParser->pushTag("property",j);
 
                                     int numKeys = xmlParser->getNumTags("key");
                                     for(int k = 0; k < numKeys; k++) {
-                                        //cout << xmlParser->getAttribute("key","value","", k) << ",";
                                         vector<string> splitPoint = ofSplitString(xmlParser->getAttribute("key","value","", k),",");
 
                                         positions.push_back(ofPoint(ofToFloat(splitPoint[0]),ofToFloat(splitPoint[1]),ofToFloat(splitPoint[2])));
                                         times.push_back(xmlParser->getAttribute("key","time",0.0f, k));
                                     }
-                                    //cout << endl;
 
                                 xmlParser->popTag(); // property
                             }
@@ -126,16 +120,12 @@ class GibsonLayer {
                             // rotations
                             if(xmlParser->getAttribute("property","type","", j) == "Rotation") {
 
-                                //cout << "Found rotation: ";// << endl;
                                 xmlParser->pushTag("property",j);
 
                                     int numKeys = xmlParser->getNumTags("key");
                                     for(int k = 0; k < numKeys; k++) {
-                                        //cout << xmlParser->getAttribute("key","value",0.0f, k) << ",";
-
                                         rotations.push_back(xmlParser->getAttribute("key","value",0.0f, 0));
                                     }
-                                    //cout << endl;
 
                                 xmlParser->popTag(); // property
                             }
@@ -143,19 +133,15 @@ class GibsonLayer {
                             // scales
                             if(xmlParser->getAttribute("property","type","", j) == "Scale") {
 
-                                //cout << "Found scale: ";// << endl;
                                 xmlParser->pushTag("property",j);
 
                                     int numKeys = xmlParser->getNumTags("key");
                                     for(int k = 0; k < numKeys; k++) {
-                                        //cout << xmlParser->getAttribute("key","value","", k) << ",";
 
                                         vector<string> splitPoint = ofSplitString(xmlParser->getAttribute("key","value","", k),",");
 
                                         scales.push_back(ofPoint(ofToFloat(splitPoint[0]),ofToFloat(splitPoint[1]),ofToFloat(splitPoint[2])));
                                     }
-                                    //cout << endl;
-
 
                                 xmlParser->popTag(); // property
                             }
@@ -163,16 +149,13 @@ class GibsonLayer {
                             // opacities
                             if(xmlParser->getAttribute("property","type","", j) == "Opacity") {
 
-                                //cout << "Found opacities: ";// << endl;
                                 xmlParser->pushTag("property",j);
 
                                     int numKeys = xmlParser->getNumTags("key");
                                     for(int k = 0; k < numKeys; k++) {
-                                        //cout << xmlParser->getAttribute("key","value",0.0f, k) << ",";
-
                                         opacities.push_back(xmlParser->getAttribute("key","value",0.0f,k));
                                     }
-                                    //cout << endl;
+
 
                                 xmlParser->popTag(); // property
                             }
@@ -224,7 +207,6 @@ public:
         gibsonXmlPath = xmlPath;
         imageSearchDir = searchDir;
 
-        cout << "loading gibsonXmlPath: " << gibsonXmlPath << endl;
         xmlParser = new ofxXmlSettings(gibsonXmlPath);
         //xmlParser->loadFile(gibsonXmlPath);
 
