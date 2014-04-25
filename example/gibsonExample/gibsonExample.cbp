@@ -115,6 +115,9 @@
 			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
 			<Mode after="always" />
 		</ExtraCommands>
+		<Unit filename="../../../addons/ofxXmlGibson/src/ofxXmlGibson.cpp">
+			<Option virtualFolder="addons/ofxXmlGibson/src/" />
+		</Unit>
 		<Unit filename="../../../addons/ofxXmlGibson/src/ofxXmlGibson.h">
 			<Option virtualFolder="addons/ofxXmlGibson/src/" />
 		</Unit>
