@@ -72,7 +72,8 @@ GibsonLayer::GibsonLayer(ofxXmlSettings* xmlParser, int which, string imageSearc
 
                     int numKeys = xmlParser->getNumTags("key");
                     for(int k = 0; k < numKeys; k++) {
-                        rotations.push_back(xmlParser->getAttribute("key","value",0.0f, 0));
+                        rotations.push_back(xmlParser->getAttribute("key","value",0.0f, k));
+                        //cout << "rotation: " << rotations.back() << endl;
                     }
 
                     xmlParser->popTag(); // property
@@ -150,10 +151,8 @@ void GibsonLayer::draw() {
     ofPushMatrix();
     ofTranslate(positions[timeIndex]);
     ofScale(scales[timeIndex].x/100.0,scales[timeIndex].y/100.0,scales[timeIndex].z/100.0);
-
     ofRotate(rotations[timeIndex]);
     ofTranslate(anchorPoint*-1);
-
 
     ofSetColor(255,255,255,255.0*opacities[timeIndex]/100.0);
     img->draw(0,0);
@@ -172,7 +171,6 @@ ofxXmlGibson::ofxXmlGibson(string xmlPath, string searchDir) {
 
 
     //movie //composition //layers
-
 
     xmlParser->pushTag("movie", 0);
 
